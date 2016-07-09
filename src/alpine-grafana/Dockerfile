@@ -1,7 +1,7 @@
 FROM quay.io/stonevil/alpine-glibc
 MAINTAINER stonevil@gmail.com
 
-ENV GRAFANA_VERSION=${GRAFANA_VERSION:-3.1.0-1466666977beta1}
+ENV GRAFANA_VERSION=${GRAFANA_VERSION:-3.0.4-1464167696}
 ENV GRAFANA_DOWNLOAD_URL=${GRAFANA_DOWNLOAD_URL:-https://grafanarel.s3.amazonaws.com/builds/grafana-${GRAFANA_VERSION}.linux-x64.tar.gz}
 
 ENV GRAFANA_BASE_PATH /opt
